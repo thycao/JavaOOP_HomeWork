@@ -1,9 +1,9 @@
 package thy.com.JavaOOP2.person;
 
 public class Person {
-    protected String name;
-    protected int age;
-    protected String gender;
+    private String name;
+    private int age;
+    private String gender;
     private String address;
     private String phone;
 
