@@ -1,6 +1,7 @@
 package thy.com.JavaOOP3.testcases;
 
 import thy.com.JavaOOP3.common.BaseTest;
+import thy.com.JavaOOP3.common.Constants;
 
 public class TestCases extends BaseTest {
 
@@ -11,12 +12,14 @@ public class TestCases extends BaseTest {
         System.out.println("Click on Login button");
     }
     public void login() {
+        Constants.setBrowser("Firefox");
         createDriver();
         commonloginTC();
         closeDriver();
     }
 
     public void addCategory() {
+        Constants.setBrowser("CocCoc");
         createDriver();
         commonloginTC();
 

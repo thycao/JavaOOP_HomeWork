@@ -6,4 +6,11 @@ public class Constants {
     public static boolean headless=true;
 
 
+    public static String getBrowser() {
+        return browser;
+    }
+
+    public static void setBrowser(String browser) {
+        Constants.browser = browser;
+    }
 }
