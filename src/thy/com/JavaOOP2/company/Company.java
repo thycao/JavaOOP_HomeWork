@@ -5,6 +5,7 @@ import thy.com.JavaOOP2.person.Person;
 public class Company extends Person {
     public void GetInfoPerson() {
         getProtected();
+
     }
     public static void main(String[] args) {
         Person person = new Person();
@@ -12,5 +13,6 @@ public class Company extends Person {
         company.getProtected();
         System.out.println("=====================");
         company.GetInfoPerson();
+
     }
 }
